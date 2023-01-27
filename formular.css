@@ -1,4 +1,36 @@
-#logo {
-    width: 100px;
-    height: 50px;
+@media screen and (min-width: 992px){
+
+    header {
+        height: inherit;
+        width: 100%;
+    }
+
+    #logo {
+        width: 120px;
+        height: 20px;
+        padding: 10px 0 20px 50px;
+    }
+    div {
+        overflow: hidden;
+        background-color: #0091cd;
+
+    }
+    p  {
+        height: 204px;
+        width: 40%;
+        position: absolute;
+        background-color: #0091cd;
+        font-size: 32px;
+        color: #ffffff;
+        padding-left: 140px;
+        margin-top: 0;
+        padding-top: 30px;
+        border-top-right-radius: 130px 30px;
+        clip-path: polygon(0 0, 0 100%, 88% 100%, 102% 0);
+
+    }
+    #banner {
+        float: right;
+        margin-right: 60px;
+    }
 }
