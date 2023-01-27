@@ -11,7 +11,7 @@
         height: 20px;
         padding: 10px 0 20px 50px;
     }
-    div {
+    .banhad {
         overflow: hidden;
         background-color: #0091cd;
         /* width: 100%; */
@@ -19,7 +19,7 @@
         
 
     }
-    p  {
+    .pban  {
         height: 400px;
         width: 35%;
         position: absolute;
