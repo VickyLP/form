@@ -3,6 +3,7 @@
     header {
         height: inherit;
         width: 100%;
+       
     }
 
     #logo {
@@ -13,24 +14,27 @@
     div {
         overflow: hidden;
         background-color: #0091cd;
+        /* width: 100%; */
+        position: relative;
+        
 
     }
     p  {
-        height: 204px;
-        width: 40%;
+        height: 400px;
+        width: 35%;
         position: absolute;
         background-color: #0091cd;
         font-size: 32px;
         color: #ffffff;
-        padding-left: 140px;
-        margin-top: 0;
-        padding-top: 30px;
-        border-top-right-radius: 130px 30px;
-        clip-path: polygon(0 0, 0 100%, 88% 100%, 102% 0);
-
+        padding: 2% 7%;
+        margin: 0;
+        border-top-right-radius: 40% 19%;
+        clip-path: polygon(0 0, 0 100%, 70% 160%, 102% 0);
+        border-bottom-right-radius: 118% 200%;
     }
     #banner {
         float: right;
-        margin-right: 60px;
+        padding-right: 5%;
+        width: 80%;
     }
 }
