@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="formular.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://raw.githubusercontent.com/VickyLP/form/blob/main/FontFont%20-%20MarselisOT.otf">
+        <link rel="stylesheet" href="FontFont\ -\ MarselisOT.otf">
         <title>Form</title>
         <link rel="icon" type="image" href="Images/logo.png">
     </head>
@@ -17,82 +17,94 @@
 
             </div>
         </header>
-        <form action="">
-            <label for="land">Land*</label><br>
-            <select name="land" id="land">
-                 <option value="bitten wahlen">Bitten wählen</option>
-                 <option value="deutchland">Deutschland</option>
-                 <option value="niederlande">Niederlande</option>
-                 <option value="rumänien">Rumänien</option>
-                 <option value="spanien">Spanien</option>
-            </select><br>
-            <label for="interesse">Interess*</label><br>
-                <select name="interesse" id="interesse">
-                     <option value="bitten wahlen">Bitten wählen</option>
-               </select><br>
-               <label for="interesse">Anrede*</label><br>
-                <select name="andrede" id="andrede">
-                     <option value="andrede">Bitten wählen</option>
-               </select><br>
-            <label for="vorname">Vorname*</label><br>
-            <input type="text"><br>
-            <label for="nachname">Nachname*</label><br>
-            <input type="text"><br>
-            <label for="mail">E-mail*</label><br>
-            <input type="email"><br>
-            <label for="telnum">Telefonnummer</label><br>
-            <input type="number"><br>
-            <label for="unternehmen">Unternehmen</label><br>
-            <input type="text"><br>
-            <label for="berufs">Berufsbezeichnung</label><br>
-            <input type="text"><br>
-        </form>
-        <div>
-            <input type="checkbox" id="pargf" name="pargf">
-            <label for="pargr">Ja, ich möchte von der Hermes über ihre Paket- und <br>
-                Serviceleistungen für Geschäftskunden (Newsletter, Gutscheine, <br>
-                Aktionen, Kundenzufriedenheitsumfragen) sowie über geschäftliche <br>
-                Vertragsangebote informiert werden </label>
-        </div>
+        <div class="content">
+            <div class="leftcolumn">
+                <form action="">
+                    <label for="land">Land*</label><br>
+                    <select name="land" id="land">
+                        <option value="bitten wahlen">Bitten wählen</option>
+                        <option value="deutchland">Deutschland</option>
+                        <option value="niederlande">Niederlande</option>
+                        <option value="rumänien">Rumänien</option>
+                        <option value="spanien">Spanien</option>
+                    </select><br> <br>
+                    <label for="interesse">Interess*</label><br>
+                        <select name="interesse" id="interesse">
+                            <option value="bitten wahlen">Bitten wählen</option>
+                    </select><br><br>
+                    <label for="interesse">Anrede*</label><br>
+                        <select name="andrede" id="andrede">
+                            <option value="andrede">Bitten wählen</option>
+                    </select><br><br>
+                    <label for="vorname">Vorname*</label><br>
+                    <input class="inputform" type="text"><br><br>
+                    <label for="nachname">Nachname*</label><br>
+                    <input class="inputform" type="text"><br><br>
+                    <label for="mail">E-mail*</label><br>
+                    <input class="inputform" type="email"><br><br>
+                    <label for="telnum">Telefonnummer</label><br>
+                    <input class="inputform" type="number"><br><br>
+                    <label for="unternehmen">Unternehmen</label><br>
+                    <input class="inputform" type="text"><br><br>
+                    <label for="berufs">Berufsbezeichnung</label><br>
+                    <input class="inputform" type="text"><br><br>
+                </form>
 
-            <p>*Pflichtfeld</p>
-            <p>Bei Fragen erreichen Sie uns per E-mail unter</p>
-            <p>marketing@hermesworl.com</p>
-            <button class="button">Absenden</button>
+                <div>
+                    <input type="checkbox" id="pargf" name="pargf">
+                    <label for="pargr">Ja, ich möchte von der Hermes über ihre Paket- und <br>
+                        Serviceleistungen für Geschäftskunden (Newsletter, Gutscheine, <br>
+                        Aktionen, Kundenzufriedenheitsumfragen) sowie über geschäftliche <br>
+                        Vertragsangebote informiert werden </label>
 
+                    <p>*Pflichtfeld</p>
+                    <p>Bei Fragen erreichen Sie uns per E-mail unter <br> marketing@hermesworl.com</p>
+                    <button class="button">Absenden</button>
+                </div>
+            </div>
             <div class="rightcolumn">
-                <h3>Stadt, Land, Los!</h3>
+                <p class="title">Stadt, Land, Los!</p>
                 <p>Der Weg zu kundenorientierten Zustellungs- und Retourenlösungen <br>
                 der Stadt und auf demLand.</p>
-               
-                <img src="Images/ecc-document.png" alt="document">
-                <h4>Insights der Studie:</h4>
-                <p>Stadt vs. Land</p>
-                <ul>
-                    <li>Online-Shoppingverhalten</li>
-                    <li>Top Zustellkriterien</li>
-                    <li>Retourenablauf</li>
-                </ul>
+
+                <img class="imgdoc" src="Images/ecc-document.png" alt="document">
+                <div class="ptext">
+                    <h4>Insights der Studie:</h4>
+                    <p>Stadt vs. Land</p>
+                    <ul>
+                        <li>Online-Shoppingverhalten</li>
+                        <li>Top Zustellkriterien</li>
+                        <li>Retourenablauf</li>
+                    </ul>
+                </div>
             </div>
+        </div>
     </body>
     <footer>
-        <div>
-            <p>&copy;2019 Hermes Germany GmbH</p>
-        </div>
-        <div>
-            <p>Impressum</p>
-            <p>AGB</p>
-            <p>Datenschutz</p>
-            <p>Sicherheitshinweise</p>   
-        </div>
-        <div>
-            <p>Global Hermes Links</p>
-        </div>
-        <div>
-            <p>Über uns</p>
-            <p>Presse</p>
-            <p> Karriere</p>
-            <p>Blog</p>
+        <hr>
+        <div class="fcontent">
+            <div>
+                <div>
+                    <p>&copy;2019 Hermes Germany GmbH</p>
+                </div>
+                <div class="fleft">
+                    <p>Impressum</p>
+                    <p>AGB</p>
+                    <p>Datenschutz</p>
+                    <p>Sicherheitshinweise</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p>Global Hermes Links</p>
+                </div>
+                <div class="fright">
+                    <p>Über uns</p>
+                    <p>Presse</p>
+                    <p>Karriere</p>
+                    <p>Blog</p>
+                </div>
+            </div>
         </div>
     </footer>
 </html>

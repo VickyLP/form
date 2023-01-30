@@ -1,8 +1,8 @@
-@font-face { 
+@font-face {
     font-family: 'MarselisOT';
-    src: url("https://raw.githubusercontent.com/VickyLP/form/blob/main/FontFont%20-%20MarselisOT.otf");
-    /* font-weight: 100;
-    font-style: normal; */
+    src: url("FontFont\ -\ MarselisOT.otf");
+    font-weight: 100;
+    font-style: normal;
 }
 
 
@@ -10,8 +10,7 @@
 
     header {
         height: inherit;
-        width: 100%;
-       
+
     }
 
     #logo {
@@ -24,7 +23,7 @@
         background-color: #0091cd;
         /* width: 100%; */
         position: relative;
-        
+
 
     }
     .pban  {
@@ -39,11 +38,99 @@
         border-top-right-radius: 40% 19%;
         clip-path: polygon(0 0, 0 100%, 70% 160%, 102% 0);
         border-bottom-right-radius: 118% 200%;
-        font-family: 'MarselisOT';
+        font-family: 'MarselisOT', normal;
     }
     #banner {
         float: right;
         padding-right: 5%;
         width: 80%;
     }
+    .content{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 3%;
+
+    }
+    .leftcolumn {
+        padding: 0 10px;
+        width: 40%;
+        color: #333;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    select {
+        height: 35px;
+        width: 100%;
+    }
+    .inputform {
+        height: 25px;
+        width: 98%;
+    }
+    
+
+    .rightcolumn {
+        padding: 0 10px;
+        width: 50%;
+    }
+    .title {
+        color: #0091cd;
+        font-size: 24px;
+        font-family: 'MarselisOT';
+    }
+    .ptext {
+        width: 50%;
+        height: 20%;
+        padding: 5% 15%;
+        margin: 0 0 0 100px;
+        background-color: #ebebeb;
+    }
+    .ptext ul {
+        list-style-type: none;
+    }
+    .ptext ul li:before {
+        content: '\2714';
+        color: #0091cd;
+        margin-left: -40px;
+        margin-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .imgdoc {
+        position: absolute;
+        margin: 30px 0;
+    }
+    button {
+        font-size: 14px;
+        color: #fecfae;
+        height: 35px;
+        width: 100px;
+        margin-left: 78%;
+        background-color: #ea530f;
+        border: none;
+    }
+    hr {
+        border: none;
+        background-color: #0091cd;
+        width: 100%;
+        height: 3px;
+    }
+    footer {
+        background-color: #ebebeb;
+    }
+    .fcontent {
+        font-size: 12px;
+        display: flex;
+        justify-content: flex-start;
+        margin: 20px 0 0 90px;;
+    }
+    .fcontent div:first-child {
+        padding: 0 30% 0 2%;
+    }
+    .fleft, .fright {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding-inline-end: 60px;
+    }
+
 }
