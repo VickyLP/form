@@ -1,3 +1,11 @@
+@font-face { 
+    font-family: 'MarselisOT';
+    src: url("https://raw.githubusercontent.com/VickyLP/form/blob/main/FontFont%20-%20MarselisOT.otf");
+    /* font-weight: 100;
+    font-style: normal; */
+}
+
+
 @media screen and (min-width: 992px){
 
     header {
@@ -31,7 +39,7 @@
         border-top-right-radius: 40% 19%;
         clip-path: polygon(0 0, 0 100%, 70% 160%, 102% 0);
         border-bottom-right-radius: 118% 200%;
-        font-family: MarselisOT;
+        font-family: 'MarselisOT';
     }
     #banner {
         float: right;
