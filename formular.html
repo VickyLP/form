@@ -19,62 +19,70 @@
         </header>
         <div class="content">
             <div class="leftcolumn">
-                <form action="">
-                    <label for="land">Land*</label><br>
-                    <select name="land" id="land">
-                        <option value="bitten wahlen">Bitten wählen</option>
+                <form action="" method="get" id="form1">
+                    <label for="land">Land <span>&#42;</span></label><br>
+                    <select name="land" id="land" required>
+                        <option value="">Bitten wählen</option>
                         <option value="deutchland">Deutschland</option>
                         <option value="niederlande">Niederlande</option>
                         <option value="rumänien">Rumänien</option>
                         <option value="spanien">Spanien</option>
                     </select><br> <br>
-                    <label for="interesse">Interess*</label><br>
-                        <select name="interesse" id="interesse">
-                            <option value="bitten wahlen">Bitten wählen</option>
+                    <label for="interesse">Interess <span>&#42;</span></label><br>
+                        <select name="interesse" id="interesse" required>
+                            <option value="">Bitten wählen</option>
+                            <option value="derRücken">der Rücken</option>
+                            <option value="lieferung">Lieferung</option>
                     </select><br><br>
-                    <label for="interesse">Anrede*</label><br>
-                        <select name="andrede" id="andrede">
-                            <option value="andrede">Bitten wählen</option>
+                    <label for="anrede">Anrede <span>&#42;</span></label><br>
+                        <select name="andrede" id="andrede" required>
+                            <option value="">Bitten wählen</option>
+                            <option value="frau">Frau</option>
+                            <option value="herr">Herr</option>
+                            <option value="miss">Miss</option>
                     </select><br><br>
-                    <label for="vorname">Vorname*</label><br>
-                    <input class="inputform" type="text"><br><br>
-                    <label for="nachname">Nachname*</label><br>
-                    <input class="inputform" type="text"><br><br>
-                    <label for="mail">E-mail*</label><br>
-                    <input class="inputform" type="email"><br><br>
+                    <label for="vorname">Vorname <span>&#42;</span></label><br>
+                    <input class="inputform" type="text" required><br><br>
+                    <label for="nachname">Nachname <span>&#42;</span></label><br>
+                    <input class="inputform" type="text" required><br><br>
+                    <label for="mail">E-mail <span>&#42;</span></label><br>
+                    <input class="inputform" type="email" required><br><br>
                     <label for="telnum">Telefonnummer</label><br>
                     <input class="inputform" type="number"><br><br>
                     <label for="unternehmen">Unternehmen</label><br>
                     <input class="inputform" type="text"><br><br>
                     <label for="berufs">Berufsbezeichnung</label><br>
                     <input class="inputform" type="text"><br><br>
+
                 </form>
 
                 <div>
-                    <input type="checkbox" id="pargf" name="pargf">
-                    <label for="pargr">Ja, ich möchte von der Hermes über ihre Paket- und <br>
+                    <input type="checkbox"  name="paragraph">
+                    <label>Ja, ich möchte von der Hermes über ihre Paket- und <br>
                         Serviceleistungen für Geschäftskunden (Newsletter, Gutscheine, <br>
                         Aktionen, Kundenzufriedenheitsumfragen) sowie über geschäftliche <br>
                         Vertragsangebote informiert werden </label>
 
-                    <p>*Pflichtfeld</p>
-                    <p>Bei Fragen erreichen Sie uns per E-mail unter <br> marketing@hermesworl.com</p>
-                    <button class="button">Absenden</button>
+                    <p> <span>&#42;</span> Pflichtfeld</p>
+                    <p>Bei Fragen erreichen Sie uns per E-mail unter <br>
+                         <a href="mailto:marketing@hermesworl.com"> marketing@hermesworl.com</a></p>
+                    <button type="submit" form="form1" value="Submit"class="button">Absenden</button>
+                    
                 </div>
             </div>
             <div class="rightcolumn">
                 <p class="title">Stadt, Land, Los!</p>
-                <p>Der Weg zu kundenorientierten Zustellungs- und Retourenlösungen <br>
+                <p class="pargrph">Der Weg zu kundenorientierten Zustellungs- und Retourenlösungen in <br>
                 der Stadt und auf demLand.</p>
 
                 <img class="imgdoc" src="Images/ecc-document.png" alt="document">
                 <div class="ptext">
                     <h4>Insights der Studie:</h4>
-                    <p>Stadt vs. Land</p>
+                    <p class="rclist">Stadt vs. Land</p>
                     <ul>
-                        <li>Online-Shoppingverhalten</li>
-                        <li>Top Zustellkriterien</li>
-                        <li>Retourenablauf</li>
+                        <li class="rclist">Online-Shoppingverhalten</li>
+                        <li class="rclist">Top Zustellkriterien</li>
+                        <li class="rclist">Retourenablauf</li>
                     </ul>
                 </div>
             </div>
