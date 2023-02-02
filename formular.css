@@ -5,8 +5,8 @@
     font-style: normal;
 }
 
-
-@media screen and (min-width: 993px){
+/* Breakpoint for Extra large screens, TV, Desktops, large screens */
+@media screen and (min-width: 770px){
     body {
         margin: 0;
     }
@@ -23,7 +23,6 @@
     .banhad {
         overflow: hidden;
         background-color: #0091cd;
-        /* width: 100%; */
         position: relative;
     }
     .pban  {
@@ -149,9 +148,13 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
+    }
+    .fleft {
         padding-inline-end: 60px;
     }
-   
+    .fright {
+        padding-inline-end: 30px;
+    }
 
 }
 
@@ -161,8 +164,22 @@
         font-size: 28px;
     }
    }
+   @media screen and (max-width: 992px) {
 
-@media screen and (max-width: 992px) and (min-width: 321px) {
+    .pban  {
+        font-size: 24px;
+    }
+    .imgdoc {
+        width: 150px;
+    }
+    .fcontent {
+        margin: 0;
+    }
+
+   }
+
+   /* Breakpoint for small screens, laptop */
+   @media screen and (max-width: 769px) and (min-width: 545px) {
     #logo {
         width: 70px;
         height: 13px;
@@ -171,7 +188,6 @@
     .banhad {
         overflow: hidden;
         background-color: #0091cd;
-        /* width: 100%; */
         position: relative;
     }
     .pban  {
@@ -198,6 +214,9 @@
         display: inline-block;
         margin: 10px 20px;
     }
+}
+/* The editing for the content, Breakpoint  small screens, iPads, Tablets, mobile devices */
+@media screen and (max-width: 768px)  {
     .leftcolumn {
         padding: 5px 20%;
         color: #333;
@@ -235,7 +254,6 @@
     }
     .rightcolumn {
         padding: 0 10px;
-        width: 50%;
     }
     .title {
         color: #0091cd;
@@ -243,13 +261,21 @@
         font-family: 'MarselisOT';
         margin-left: 20%;
     }
+    .pargrph {
+        font-size: 12px;
+        color: #000;
+        font-family: 'MarselisOT';
+        margin-left: 10%;
+    }
+    .rcparagr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 255px;
+    }
     .ptext {
-        
-        width: 100%;
-        height: 35%;
-        padding: 5% 15%;
-        margin: 0 0 0 80px;
-        background-color: #ebebeb;
+        height: 30%;
+        margin-left: -15px;
     }
     .ptext ul {
         list-style-type: none;
@@ -264,17 +290,12 @@
     }
     .imgdoc {
         position: absolute;
-        margin: 25px 3px;
-        width: 110px;
-    }
-    .pargrph {
-        font-size: 12px;
-        color: #000;
-        font-family: 'MarselisOT';
-        margin-left: 10%;
+        z-index: -1;
+        width: 190px;
+        padding-top: 10px;
     }
     .rclist {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
         color: #0091cd;
         font-family: Helvetica, sans-serif;
@@ -293,7 +314,6 @@
         font-size: 10px;
         display: flex;
         justify-content: space-around;
-    
     }
 
     .fleft, .fright {
@@ -302,27 +322,39 @@
 
 
 }
-@media screen and (max-width: 790px) {
+
+@media screen and (max-width: 767px) {
     .pban  {
         font-size: 20px;
     }
 }
-
-@media screen and (max-width: 580px) {
-    .pban  {
-        font-size: 14px;
+    /* Breakpoint, banner & content, for mobile devices */
+@media screen and (max-width: 544px) {
+   #logo{
+        width: 70px;
+        height: 13px;
+        position: absolute;
+        padding: 0 0 0 75%;
+        opacity: 50%;
     }
-    .rclist {
-        font-size: 10px;
+   .pban {
+        font-size: 16px;
+        position: absolute;
+        color: #0091cd;
+        font-weight: 00;
+        font-size: 16px;
+        font-family: 'MarselisOT';
+        text-shadow: 5px -4px 5px;
     }
-    .imgdoc {
-        width: 100px;
+    #banner {
+        float: right;
+        height: 130px;
+        width: 160%;
+        margin: 0;
     }
-}
-
-@media screen and (max-width: 375px) {
-    .pban  {
-        font-size: 12px;
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 1px;
     }
-    
 }
