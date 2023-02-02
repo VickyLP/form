@@ -14,7 +14,7 @@
         height: inherit;
 
     }
-
+   
     #logo {
         width: 120px;
         height: 20px;
@@ -61,9 +61,6 @@
         width: 101%;
 
     }
-    select:after {
-        border: #000;
-    }
     .inputform {
         height: 25px;
         width: 99%;
@@ -73,6 +70,9 @@
     }
     a {
         text-decoration: none;
+        color: #333;
+    }
+    .pmail {
         color: #0091cd;
     }
     button {
@@ -229,19 +229,22 @@
         font-size: 10px;
 
     }
-    select:after {
-        border: #000;
-    }
     .inputform {
-        height: 25px;
+        height: 24px;
         width: 99%;
         font-size: 10px;
     }
     span {
         color: #0091cd;
     }
+    .news {
+        font-size: 10px;
+    }
     a {
         text-decoration: none;
+        color: #333;
+    }
+    .pmail {
         color: #0091cd;
     }
     button {
@@ -281,7 +284,7 @@
         list-style-type: none;
     }
     .ptext ul li:before {
-        content: '\2714';
+        content: '\2713';
         color: #0091cd;
         margin-left: -40px;
         margin-right: 10px;

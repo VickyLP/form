@@ -46,7 +46,7 @@
                     <label for="nachname">Nachname <span>&#42;</span></label><br>
                     <input class="inputform" type="text" required><br><br>
                     <label for="mail">E-mail <span>&#42;</span></label><br>
-                    <input class="inputform" type="email" required><br><br>
+                    <input class="inputform" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" size="30"  required><br><br>
                     <label for="telnum">Telefonnummer</label><br>
                     <input class="inputform" type="number"><br><br>
                     <label for="unternehmen">Unternehmen</label><br>
@@ -58,14 +58,14 @@
 
                 <div>
                     <input type="checkbox"  name="paragraph">
-                    <label>Ja, ich möchte von der Hermes über ihre Paket- und 
+                    <label class="news">Ja, ich möchte von der Hermes über ihre Paket- und 
                         Serviceleistungen für Geschäftskunden (Newsletter, Gutscheine, 
                         Aktionen, Kundenzufriedenheitsumfragen) sowie über geschäftliche 
                         Vertragsangebote informiert werden </label>
 
                     <p> <span>&#42;</span> Pflichtfeld</p>
                     <p>Bei Fragen erreichen Sie uns per E-mail unter <br>
-                         <a href="mailto:marketing@hermesworl.com"> marketing@hermesworl.com</a></p>
+                         <a href="mailto:marketing@hermesworl.com" class="pmail"> marketing@hermesworl.com</a></p>
                     <button type="submit" form="form1" value="Submit"class="button">Absenden</button>
                 </div>
             </div>
@@ -96,21 +96,21 @@
                     <p>&copy;2019 Hermes Germany GmbH</p>
                 </div>
                 <div class="fleft">
-                    <p>Impressum</p>
-                    <p>AGB</p>
-                    <p>Datenschutz</p>
-                    <p>Sicherheitshinweise</p>
+                    <p><a href="#"> Impressum</a></p>
+                    <p><a href="#">AGB</a></p>
+                    <p><a href="#">Datenschutz</a></p>
+                    <p><a href="#">Sicherheitshinweise</a></p>
                 </div>
             </div>
             <div>
                 <div>
-                    <p>Global Hermes Links</p>
+                    <p><a href="#"></a>Global Hermes Links</p>
                 </div>
                 <div class="fright">
-                    <p>Über uns</p>
-                    <p>Presse</p>
-                    <p>Karriere</p>
-                    <p>Blog</p>
+                    <p><a href="#">Über uns</a></p>
+                    <p><a href="#">Presse</a></p>
+                    <p><a href="#">Karriere</a></p>
+                    <p><a href="#">Blog</a></p>
                 </div>
             </div>
         </div>
