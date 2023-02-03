@@ -18,7 +18,7 @@
     #logo {
         width: 120px;
         height: 20px;
-        padding: 10px 0 20px 50px;
+        padding: 15px 0 20px 50px;
     }
     .banhad {
         overflow: hidden;
@@ -26,17 +26,19 @@
         position: relative;
     }
     .pban  {
-        height: 400px;
-        width: 35%;
+        height: 220px;
+         width: 33%;
         position: absolute;
-        background-color: #0091cd;
+        background-image: url(https://www.hermesworld.com/int/common/layout/svg/contentlayer-br.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: cover;
+        background-attachment: scroll;
+        opacity: 100%;
         font-size: 32px;
         color: #ffffff;
         padding: 2% 7%;
-        margin: 0;
-        border-top-right-radius: 40% 19%;
-        clip-path: polygon(0 0, 0 100%, 70% 160%, 102% 0);
-        border-bottom-right-radius: 118% 200%;
+        margin: -3px;
         font-family: 'MarselisOT', normal;
     }
     #banner {
@@ -71,6 +73,12 @@
     a {
         text-decoration: none;
         color: #333;
+    }
+    a:visited {
+        color: #333;
+    }
+    a:hover{
+        color: #0091cd;
     }
     .pmail {
         color: #0091cd;
@@ -183,7 +191,7 @@
     #logo {
         width: 70px;
         height: 13px;
-        padding: 10px 0 10px 30px;
+        padding: 10px 0 10px 40px;
     }
     .banhad {
         overflow: hidden;
@@ -191,17 +199,19 @@
         position: relative;
     }
     .pban  {
-        height: 260px;
-        width: 35%;
+        height: 220px;
+        width: 33%;;
         position: absolute;
-        background-color: #0091cd;
+        background-image: url(https://www.hermesworld.com/int/common/layout/svg/contentlayer-br.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: cover;
+        background-attachment: scroll;
+        opacity: 100%;
         font-size: 24px;
         color: #ffffff;
         padding: 2% 7%;
-        margin: 0;
-        border-top-right-radius: 40% 19%;
-        clip-path: polygon(0 0, 0 100%, 70% 160%, 102% 0);
-        border-bottom-right-radius: 118% 200%;
+        margin: -3px;
         font-family: 'MarselisOT', normal;
     }
     #banner {
@@ -215,7 +225,7 @@
         margin: 10px 20px;
     }
 }
-/* The editing for the content, Breakpoint  small screens, iPads, Tablets, mobile devices */
+/*  Breakpoint  small screens, iPads, Tablets, mobile devices */
 @media screen and (max-width: 768px)  {
     .leftcolumn {
         padding: 5px 20%;
@@ -337,8 +347,8 @@
         width: 70px;
         height: 13px;
         position: absolute;
-        padding: 0 0 0 75%;
-        opacity: 50%;
+        /* padding: 0 0 0 75%;
+        opacity: 50%; */
     }
    .pban {
         font-size: 16px;
@@ -359,5 +369,10 @@
         display: flex;
         flex-direction: column-reverse;
         margin: 1px;
+    }
+} 
+@media screen and (max-width: 300px) {
+    #banner {
+        width: 180%;
     }
 }
