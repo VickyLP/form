@@ -109,7 +109,7 @@
         list-style-type: none;
     }
     .ptext ul li:before {
-        content: '\2714';
+        content: '\2713';
         color: #0091cd;
         margin-left: -40px;
         margin-right: 10px;
