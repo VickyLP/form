@@ -339,10 +339,14 @@
     /* Breakpoint, banner & content, for mobile devices */
 @media screen and (max-width: 544px) {
    #logo{
-    width: 70px;
-    height: 13px;
-    position: absolute;
-    padding-left: 30%;
+        width: 70px;
+        height: 13px;
+        position: absolute;
+        margin-left: 30%;
+        border-bottom: double;
+        border-top: double;
+        border-color: #0091cd;
+        background: border-box;
     }
    .pban {
         font-size: 16px;
