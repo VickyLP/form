@@ -372,6 +372,9 @@
         display: flex;
         flex-direction: column-reverse;
         margin: 1px;
+        border: 6px double #0091cd;
+        border-radius: 115px;
+}
     }
 } 
 @media screen and (max-width: 330px) {
