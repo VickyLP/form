@@ -14,7 +14,6 @@
         height: inherit;
 
     }
-   
     #logo {
         width: 120px;
         height: 20px;
@@ -61,13 +60,14 @@
     select {
         height: 35px;
         width: 101%;
-        
 
     }
     .inputform {
         height: 25px;
         width: 99%;
-        
+    }
+    .inputform:hover, select:hover {
+        border: 2px solid #0091cd;
     }
     span {
         color: #0091cd;
@@ -243,6 +243,9 @@
         font-size: 10px;
         border: 1px solid #0091cd;
     }
+    .inputform:hover, select:hover {
+        border: 2px solid #0091cd;
+    }
     span {
         color: #0091cd;
     }
@@ -374,9 +377,8 @@
         margin: 1px;
         border: 6px double #0091cd;
         border-radius: 115px;
-}
     }
-} 
+}
 @media screen and (max-width: 330px) {
     #banner {
         width: 180%;
