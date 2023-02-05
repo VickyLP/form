@@ -6,7 +6,7 @@
 }
 
 /* Breakpoint for Extra large screens, TV, Desktops, large screens */
-@media screen and (min-width: 770px){
+@media screen and (min-width: 769px){
     body {
         margin: 0;
     }
@@ -25,7 +25,7 @@
         position: relative;
     }
     .pban  {
-        height: 220px;
+        height: 300px;
          width: 33%;
         position: absolute;
         background-image: url(https://www.hermesworld.com/int/common/layout/svg/contentlayer-br.svg);
@@ -223,7 +223,7 @@
     }
 }
 /*  Breakpoint  small screens, iPads, Tablets, mobile devices */
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 769px)  {
     .leftcolumn {
         padding: 5px 20%;
         color: #333;
@@ -344,7 +344,7 @@
     }
 }
     /* Breakpoint, banner & content, for mobile devices */
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 545px) {
    #logo{
         width: 70px;
         height: 13px;
@@ -364,12 +364,18 @@
         font-family: 'MarselisOT';
         text-shadow: 1px 1px 0px #ebebeb;
         font-weight: bold;
+        border-left: 5px solid #0091cd;
+        margin: 0 -6px;
+        height: 110px;
+        padding: 15px 10px;
     }
     #banner {
         float: right;
-        height: 130px;
+        height: 140px;
         width: 160%;
         margin: 0;
+        padding-right: 5px;
+        background-color: #0091cd;
     }
     .content{
         display: flex;
@@ -379,9 +385,11 @@
         border-radius: 115px;
     }
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 370px) {
     #banner {
-        width: 180%;
+        width: 170%;
         height: 120px
     }
+    .pban {
+        height: 90px;
 }
